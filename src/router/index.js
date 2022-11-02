@@ -5,6 +5,7 @@ import AppView from '../views/AppView.vue'
 import LoginCom from '../components/LoginCom.vue'
 import Register from '../components/Register.vue'
 import UserProfile from '../components/UserProfile.vue'
+import Products from '../components/Products.vue'
 
 
 const routes = [
@@ -33,6 +34,10 @@ const routes = [
       {
         path: '/user-info',
         component: UserProfile
+      },
+      {
+        path: '/products',
+        component: Products
       },
     ]
   }
